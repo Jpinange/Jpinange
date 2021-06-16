@@ -1,0 +1,43 @@
+*
+
+  header img:hover 
+  header img {
+    animation: bordaCamaleao 8s infinite;
+    border-radius:50%;
+    transition: .5s ease-in-out;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  header img:hover {
+    transform: rotate(180deg);
+  }
+  h3 {
+    color: #1634bd;
+    font-weight: 700;
+    margin: 24px auto;
+    text-align: center;
+  }
+  #experiencias profissionais table, thead, tbody, tfoot, tr, th, td  {
+    border: 2px solid #2bb148;
+  }
+  
+  #experiencias profissionais table {
+    background-color: #b5c2f8;
+    margin: auto;
+    padding: 16px;
+  }
+  
+  #formacao academica tr, td, th {
+    background-color: #fff;
+    padding: 16px;
+  }
+
+  #formacao academica table1, thead, tbody, tfoot, tr, th, td  {
+      border: 4px solid #2bb148;
+  }
+  
+  #formacao academica table1 {
+    background-color: #a51d61;
+    margin: auto;
+    padding: 16px; 
+  }
