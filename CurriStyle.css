@@ -5,7 +5,9 @@
     animation: bordaCamaleao 8s infinite;
     border-radius:50%;
     transition: .5s ease-in-out;
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(2px 2px 4px rgba(122, 151, 17, 0.637));
+    font-size:50px;
+    font-weight:bold;
   }
   
   header img:hover {
@@ -33,11 +35,29 @@
   }
 
   #formacao academica table1, thead, tbody, tfoot, tr, th, td  {
-      border: 4px solid #2bb148;
+      border: 4px solid #e753c2;
   }
   
-  #formacao academica table1 {
+  .formacao academica table1 {
     background-color: #a51d61;
     margin: auto;
     padding: 16px; 
   }
+
+
+  @keyframes bordaCamaleao {
+    0% {
+      border: 5px solid #1634bd;
+    }
+    25% {
+      border: 5px solid #bd1616;
+    }
+    50% {
+      border: 5px solid #bd9616;
+    }
+    75% {
+      border: 5px solid #4bbd16;
+    }
+    100% {
+      border: 5px solid #1634bd;
+    }
