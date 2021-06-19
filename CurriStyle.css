@@ -1,4 +1,12 @@
-*
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 4;
+  margin: bottom 10px;;
+  padding: 0;
+  font-weight: bold;
+}
 
   header img:hover 
   header img {
@@ -6,27 +14,43 @@
     border-radius:50%;
     transition: .5s ease-in-out;
     filter: drop-shadow(2px 2px 4px rgba(122, 151, 17, 0.637));
-    font-size:50px;
-    font-weight:bold;
+    
+  }
+  header img {
+    animation: bordaCamaleao 4s infinite;
+    border-radius:50%;
+    transition: .5s ease-in-out;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
   }
   
   header img:hover {
-    transform: rotate(180deg);
+    transform: rotate(450deg);
   }
-  h3 {
-    color: #1634bd;
-    font-weight: 700;
-    margin: 24px auto;
-    text-align: center;
-  }
+
+  header{
+    font-size:large;
+    font-weight:bold;
+
+}
+    h3 {
+      color: #1634bd;
+      font-weight:600;
+      margin: 24px auto;
+      text-align: center;
+      font-size:xx-large;
+      font-weight:bold;
+      font-style: italic;
+    
+    
+    }
   #experiencias profissionais table, thead, tbody, tfoot, tr, th, td  {
-    border: 2px solid #2bb148;
+    border: 2px solid #b96f0d;
   }
   
   #experiencias profissionais table {
-    background-color: #b5c2f8;
+    background-color: #2f703a;
     margin: auto;
-    padding: 16px;
+    padding: 12px;
   }
   
   #formacao academica tr, td, th {
@@ -44,20 +68,35 @@
     padding: 16px; 
   }
 
+  Footer{
+    background-color: #a51d61;
+    margin: auto;
+    padding: 16px; 
+
+
+  }
+  @media only screen and (max-width: 600px) {
+    .divTab{
+    float: none;
+    width: 100%;
+    }
+    table {
+    width:100%;
+  }
 
   @keyframes bordaCamaleao {
     0% {
-      border: 5px solid #1634bd;
+      border: 8px solid #1634bd;
     }
     25% {
-      border: 5px solid #bd1616;
+      border: 8px solid #bd1616;
     }
     50% {
-      border: 5px solid #bd9616;
+      border: 8px solid #bd9616;
     }
     75% {
-      border: 5px solid #4bbd16;
+      border: 8px solid #4bbd16;
     }
     100% {
-      border: 5px solid #1634bd;
+      border: 8px solid #1634bd;
     }
